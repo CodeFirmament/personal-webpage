@@ -1,2 +1,2 @@
-# personal-webpage
+# personal webpage
 Developing a webpage
