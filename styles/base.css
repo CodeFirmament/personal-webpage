@@ -1,0 +1,119 @@
+body#start {
+  background-color: black;
+}
+
+.text-color-white {
+  color: white;
+}
+
+.text-color-complement {
+  color: #FF69C5;
+}
+
+.text-color-base {
+  color: crimson;
+}
+
+.font-console {
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.border-console-A, .border-console-B {
+  border: 1px solid white;
+}
+
+.centered {
+  position: relative;
+  left: -50%;
+}
+
+.border-console-B {
+  display: inline-block;
+  position: absolute;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.border-console-B p {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.border-console-B p, .border-console-B input {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.border-console-B input {
+  background-color: black;
+  border: none;
+  color: white;
+  height: 14px;
+}
+
+input[type=password], input[type=text] {
+  border-bottom: 1px solid white;
+}
+
+.ND {
+  display: none;
+}
+
+body#start div.border-console-B {
+  margin-top: 4em;
+}
+
+div#C0dec p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: block;
+}
+
+div#C0dec {
+  margin-top: 1em;
+  position: relative;
+  text-align: center;
+}
+
+@media screen and (max-width: 832px) {
+  .border-console-B {
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    transform: translate(0%, 0%);
+  }
+
+  .border-console-B #submit {
+    float: right;
+  }
+
+  .ND {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 500px) {
+  input[type=text], input[type=password] {
+    width: 10em;
+  }
+
+  .border-console-B #submit {
+    float: none;
+    transform: translate(320%, 0%);
+  }
+}
+@media screen and (max-width: 400px) {
+  input[type=text], input[type=password] {
+    width: 7em;
+  }
+
+  .border-console-B #submit {
+    float: right;
+    transform: translate(0%, 0%);
+  }
+}
+
+/*# sourceMappingURL=base.css.map */
