@@ -1,5 +1,5 @@
-p#five, p#four, p#three, p#two, p#one {
-  animation-duration: 2.5s;
+div#C0dec > p {
+  animation-duration: 2s;
   animation-direction: alternate;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -103,28 +103,48 @@ div#C0dec {
     margin-left: 6em;
   }
 }
-p#one {
-  animation-name: moving;
-}
-
 p#two {
-  animation-name: moving;
   animation-delay: 0.5s;
 }
 
 p#three {
-  animation-name: moving;
   animation-delay: 1s;
 }
 
 p#four {
-  animation-name: moving;
   animation-delay: 1.5s;
 }
 
 p#five {
-  animation-name: moving;
   animation-delay: 2s;
+}
+
+p#six {
+  animation-delay: 2.5s;
+}
+
+p#seven {
+  animation-delay: 3s;
+}
+
+p#eight {
+  animation-delay: 3.5s;
+}
+
+p#nine {
+  animation-delay: 4s;
+}
+
+p#ten {
+  animation-delay: 4.5s;
+}
+
+div#C0dec > p {
+  animation-name: moving;
+}
+div#C0dec > p:last-child {
+  animation-name: none;
+  margin-left: 0em;
 }
 
 @media screen and (max-width: 832px) {

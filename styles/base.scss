@@ -3,7 +3,7 @@ $variable-moviles-500: "max-width: 500px";
 $variable-moviles-400: "max-width: 400px";
 
 %animation-basis {
-    animation-duration: 2.5s;
+    animation-duration: 2s;
     animation-direction: alternate;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -73,37 +73,33 @@ div#C0dec{
     100% {margin-left: 6em;}
 }
 
-p#one{
-    animation-name: moving;
-    @extend %animation-basis;
-}
+p#two{animation-delay: 0.5s;}
 
-p#two{
-    animation-name: moving;
-    animation-delay: 0.5s;
-    @extend %animation-basis;
-}
+p#three{animation-delay: 1s;}
 
-p#three{
-    animation-name: moving;
-    animation-delay: 1s;
-    @extend %animation-basis;
-}
+p#four{animation-delay: 1.5s;}
 
-p#four{
-    animation-name: moving;
-    animation-delay: 1.5s;
-    @extend %animation-basis;
-}
+p#five{animation-delay: 2s;}
 
-p#five{
-    animation-name: moving;
-    animation-delay: 2s;
-    @extend %animation-basis;
-}
+p#six{animation-delay: 2.5s;}
 
-#C0dec p{
+p#seven{animation-delay: 3s;}
 
+p#eight{animation-delay: 3.5s;}
+
+p#nine{animation-delay: 4s;}
+
+p#ten{animation-delay: 4.5s;}
+
+div#C0dec{
+    >p{
+        animation-name: moving;
+        @extend %animation-basis;
+    }
+    >p:last-child{
+        animation-name: none;
+        margin-left: 0em;
+    }
 }
 
 
