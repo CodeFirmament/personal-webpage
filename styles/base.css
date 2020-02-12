@@ -3,6 +3,7 @@ p#five, p#four, p#three, p#two, p#one {
   animation-direction: alternate;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  margin-left: -6em;
 }
 
 body#start {
@@ -108,7 +109,7 @@ p#one {
 
 p#two {
   animation-name: moving;
-  margin-left: -6em;
+  animation-delay: 0.5s;
 }
 
 p#three {
