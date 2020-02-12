@@ -2,8 +2,13 @@ $variable-moviles-832: "max-width: 832px";
 $variable-moviles-500: "max-width: 500px";
 $variable-moviles-400: "max-width: 400px";
 
-body#start{background-color: black;}
+%animation-basis {
+    animation-duration: 8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
 
+body#start{background-color: black;}
 
 .text-color-white{color: white;}
 
@@ -56,6 +61,28 @@ div#C0dec{
     position: relative;
     text-align: center;
 }
+
+@keyframes first-block{
+    from {margin-left: -6em;}
+    to {margin-left: 6em;}
+}
+
+@keyframes second-block{
+    from {margin-left: 6em;}
+    to {margin-left: -6em;}
+}
+
+p#one{
+    animation-name: first-block;
+    @extend %animation-basis;
+}
+
+p#two{
+    animation-name: second-block;
+    @extend %animation-basis;
+}
+
+
 
 // responsive design
 
