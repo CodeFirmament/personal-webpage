@@ -1,6 +1,7 @@
-p#two, p#one {
-  animation-duration: 8s;
+p#five, p#four, p#three, p#two, p#one {
+  animation-duration: 2.5s;
   animation-direction: alternate;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
@@ -84,28 +85,45 @@ div#C0dec {
   text-align: center;
 }
 
-@keyframes first-block {
-  from {
+@keyframes moving {
+  0% {
     margin-left: -6em;
   }
-  to {
-    margin-left: 6em;
+  25% {
+    margin-left: -3em;
   }
-}
-@keyframes second-block {
-  from {
-    margin-left: 6em;
+  50% {
+    margin-left: 0em;
   }
-  to {
-    margin-left: -6em;
+  75% {
+    margin-left: 3em;
+  }
+  100% {
+    margin-left: 6em;
   }
 }
 p#one {
-  animation-name: first-block;
+  animation-name: moving;
 }
 
 p#two {
-  animation-name: second-block;
+  animation-name: moving;
+  margin-left: -6em;
+}
+
+p#three {
+  animation-name: moving;
+  animation-delay: 1s;
+}
+
+p#four {
+  animation-name: moving;
+  animation-delay: 1.5s;
+}
+
+p#five {
+  animation-name: moving;
+  animation-delay: 2s;
 }
 
 @media screen and (max-width: 832px) {
