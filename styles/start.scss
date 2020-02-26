@@ -36,12 +36,22 @@ body#start{background-color: black;}
 
 .border-console-B p{display: inline-block;font-size: 12px;}
 
-.border-console-B p, .border-console-B input{margin-top: 10px;margin-bottom: 0px;}
+.border-console-B p, .border-console-B input{margin-top: 0px;margin-bottom: 0px;}
 
 .border-console-B input{
     background-color: black;
     border: none;
     color: white;
+    height: 14px;
+}
+
+.border-console-B button{
+    background-color: white;
+    border: none;
+    color:black;
+    padding: 10px 15px 10px 15px;
+    font-size: inherit;
+    font-family: inherit;
     height: 14px;
 }
 
