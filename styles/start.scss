@@ -49,7 +49,10 @@ body#start{background-color: black;}
     background-color: white;
     border: none;
     color:black;
-    padding: 10px 15px 10px 15px;
+    padding: 10px 15px;
+    border-bottom: 8px solid white;
+    text-decoration: none;
+    text-align: center;
     font-size: inherit;
     font-family: inherit;
     height: 14px;
@@ -124,22 +127,24 @@ div#C0dec{
         top: 0px;
         left: 0px;
         transform: translate(0%,0%);
-    }
+        padding: 10px 0px;
+    }   
+
+    .border-console-B button{
+        float:right;
+        transform: translateY(-27%);
+        padding: 14px 15px;
+
+    }    
 
    
-
-    .border-console-B #submit{float: right;}
-
-    .ND{display:inline-block;}
-
 }
+
 
 @media screen and ($variable-moviles-500){
     input[type=text], input[type=password]{width:10em;}
-    .border-console-B #submit{float: none;transform: translate(320%,0%);}
 }
 
 @media screen and ($variable-moviles-400){
     input[type=text], input[type=password]{width:7em;}
-    .border-console-B #submit{float: right;transform: translate(0%,0%);}
 }
