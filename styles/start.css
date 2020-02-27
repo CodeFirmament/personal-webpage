@@ -29,6 +29,7 @@ body#start {
 
 .border-console-A, .border-console-B {
   border: 1px solid white;
+  background-color: black;
 }
 
 .centered {
@@ -39,7 +40,6 @@ body#start {
 .border-console-B {
   display: inline-block;
   position: absolute;
-  background-color: black;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

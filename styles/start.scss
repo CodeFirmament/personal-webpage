@@ -21,14 +21,13 @@ body#start{background-color: black;}
 
 .font-console{font-family: monospace;font-size: 12px;}
 
-.border-console-A, .border-console-B{border: 1px solid white;}
+.border-console-A, .border-console-B{border: 1px solid white; background-color: black;}
 
 .centered{position: relative;left: -50%;}
 
 .border-console-B{
     display: inline-block;
     position: absolute;
-    background-color: black;
     top:  50%;
     left: 50%;
     transform: translate(-50%,-50%);
