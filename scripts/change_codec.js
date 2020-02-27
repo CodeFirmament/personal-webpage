@@ -13,8 +13,7 @@ function codec_change_color(color_base,color_comp){
 }
 
 function change_background(BG){
-    console.log(BG)
-    document.getElementsByTagName('body')[0].style.backgroundImage = "url('res/snow-bg.jpg')";
+    document.getElementsByTagName('body')[0].style.backgroundImage = "url('res/"+BG+"')";
     document.getElementsByTagName('body')[0].style.backgroundRepeat = "no-repeat)";
     document.getElementsByTagName('body')[0].style.backgroundAttachment = "fixed";
     document.getElementsByTagName('body')[0].style.backgroundSize = "cover";
@@ -39,7 +38,7 @@ function set_default(){
 }
 
 function serial_management(){
-    
+
     let input = document.getElementsByTagName("input")[1].value;
 
     switch (input) {
