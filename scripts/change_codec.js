@@ -39,6 +39,7 @@ function set_default(){
 }
 
 function serial_management(){
+    
     let input = document.getElementsByTagName("input")[1].value;
 
     switch (input) {
@@ -48,8 +49,11 @@ function serial_management(){
         case "lonely":
             change_background("snow-bg.jpg");
             break;
-        default:
+        case "":
             set_default();
+            break;
+        default:
+            
             break;
     }
 }
