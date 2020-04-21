@@ -43,7 +43,17 @@ function set_default(){
 
 function serial_management(){
 
+
+    let whoami = document.getElementsByTagName("input")[0].value;
     let input = document.getElementsByTagName("input")[1].value;
+
+    switch(whoami){
+        case "fullstack":
+            go_to_page("/pages/CV/index.html");
+            break;
+        default:
+            break;
+    }
 
     switch (input) {
         case "colorblue":
@@ -51,9 +61,6 @@ function serial_management(){
             break;
         case "cold":
             change_background("snow-bg.jpg");
-            break;
-        case "fullstack":
-            go_to_page("/pages/CV/index.html");
             break;
         case "":
             set_default();
