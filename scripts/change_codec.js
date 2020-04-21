@@ -53,7 +53,7 @@ function serial_management(){
             change_background("snow-bg.jpg");
             break;
         case "fullstack":
-            go_to_page();
+            go_to_page("/pages/CV/index.html");
             break;
         case "":
             set_default();
