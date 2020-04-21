@@ -1,12 +1,11 @@
 
 $mobileVariableWidth: "max-width: 500px";
-$mobileVariableHeight: "min-height:500px";
 
 //desktop design
 @import "structWeb.scss";
 
 //mobile design
-@media screen and ($mobileVariableWidth),($mobileVariableHeight) and 
+@media screen and ($mobileVariableWidth) and 
     (orientation: landscape),(orientation: portrait){
 
 #introduction{

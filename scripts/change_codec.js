@@ -49,7 +49,7 @@ function serial_management(){
 
     switch(whoami){
         case "fullstack":
-            go_to_page("/pages/CV/index.html");
+            go_to_page("pages/CV/index.html");
             break;
         default:
             break;
