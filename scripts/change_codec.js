@@ -12,6 +12,10 @@ function codec_change_color(color_base,color_comp){
     }
 }
 
+function go_to_page(URL){
+    document.location.href = URL;
+}
+
 function change_background(BG){
     document.getElementsByTagName('body')[0].style.backgroundImage = "url('res/"+BG+"')";
     document.getElementsByTagName('body')[0].style.backgroundRepeat = "no-repeat)";
@@ -45,8 +49,11 @@ function serial_management(){
         case "colorblue":
             codec_change_color("rgb(78, 110, 255)","rgb(135, 182, 253)");
             break;
-        case "lonely":
+        case "cold":
             change_background("snow-bg.jpg");
+            break;
+        case "fullstack":
+            go_to_page();
             break;
         case "":
             set_default();
