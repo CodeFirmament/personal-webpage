@@ -1,0 +1,1 @@
+https://vod-progressive.akamaized.net/exp=1588327433~acl=%2A%2F529998233.mp4%2A~hmac=5a4ac8bddbeb1405b2b8f1876ab05abbf15a094d8f689733db8665354e97e5ef/vimeo-prod-skyfire-std-us/01/3267/6/166335905/529998233.mp4
