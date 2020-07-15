@@ -1,29 +1,27 @@
+#pbg-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
 
+  i{
+      font-size: 100px;
+  }
     
+div.mainContent{
+    position: relative;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
 #introduction{
-
-    background-image: url("../img/FFVI.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    &-decoration{
-        background: rgb(255, 255, 102,0.7);
-        border: 0.5px dotted rgb(255, 255, 102);
-        width: 20vw;
-        height: 20vw;
-        border-radius: 50%;
-        margin: auto;
-        //z-index: -1;
-        img{
-            margin:auto;
-            width: inherit;
-            height: inherit;
-        }
-    }
-
     p{
-        background-color: $blueBlack;
-        color: white;
+        background-color: $composerColorSecond;
+      
+        color: black;
         text-align: center;
         padding:10px;
         font-size: 20px;
@@ -31,13 +29,21 @@
 
     header{
         margin: 0px;
+        padding-bottom:30vh;
+        
         h1{
             display:inline-block;
             width:100%;
-            margin:0px;
-            background-color: $yellow;
-            font-size: 40px;
-            font-weight:bold
+            background-color: $composerColorBase;
+            margin: 0px;
+            margin-top: 40vh;
+            padding: 2px 0vw;
+            color: white;
+            font-size: 50px;
+            font-weight:bold;
+            &#mainTitle{
+                text-align: center;
+            }
         }
 
         p{
@@ -50,6 +56,8 @@
     }
 
 }
+
+
 
 div.centerSection{
 
@@ -66,12 +74,16 @@ div.centerSection{
     }
 
     div.div-part:nth-child(even){
-        background-color: white;
+        background-color:rgba(255,255,255,0.65);
         border-right-style: solid;
         border-color: #080B21;
         border-bottom-style: solid;
         border-color: #080B21;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    div.div-part{
+        border-radius: 10px;
     }
 
     div.imageSection{
@@ -83,6 +95,10 @@ div.centerSection{
         background-size: cover;
         background-repeat: no-repeat;
         z-index: -1000;
+    }
+
+    p{
+        font-size: 20px;
     }
 }
 
@@ -110,27 +126,14 @@ div.centerSection{
 }
 
 #socialAccountsSection{
-    .informationData{
-        span{
-            visibility: hidden;
-        }
-        display: flex;  
-        flex-wrap: wrap;
-
-        div.contentWrapper{
-            display: flex;  
-            flex-wrap: wrap;
-            width:100px;
-            img{
-                width: 100px;
-                height: 100px;
-            }
-        }
-    }
+    text-align: center;
+    padding-bottom: 4vh;
+    margin-bottom: 5vh;
+    color: rgba(0,0,0,0.75);
 }
 
 body{
-    font-family:Helvetica, Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
     margin:0px;
 }
 
@@ -143,7 +146,7 @@ body{
 .informationData {
 
     dt{
-        font-size:20px;
+        font-size:24px;
         font-weight: bolder;
         text-align: center;
         text-transform:uppercase;
@@ -152,16 +155,17 @@ body{
     }
 
     dd{
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
         margin:0px;
     }
+
 }
 
 footer{
     font-size:20px;
     text-align:center;
-    background-color:$blueBlack;
+    background-color:$composerColorBase;
     color:white;
     p{
         margin:0px;
