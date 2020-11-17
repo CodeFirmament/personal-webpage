@@ -1,0 +1,130 @@
+#introduction {
+  p {
+    margin-top: 40vw;
+    background-color: $composerColorSecond;
+    text-align: center;
+    padding: 10px;
+    font-size: 2.5rem;
+  }
+
+  header {
+    margin: 0px;
+    padding-bottom: 5vh;
+    h1 {
+      display: inline-block;
+      width: 80%;
+      margin: 0px;
+      background-color: $composerColorBase;
+      font-size: 4rem;
+      font-weight: bold;
+    }
+
+    p {
+      width: 50%;
+      font-size: 3rem;
+      margin-top: 0px;
+      text-align: left;
+      font-weight: 200;
+    }
+  }
+}
+
+div.centerSection {
+  margin-left: 0px;
+  margin-right: 0px;
+  border: none;
+  div.div-part:nth-child(odd) {
+    background-color: $softBlue;
+    border: none;
+    box-shadow: none;
+  }
+
+  div.div-part:nth-child(even) {
+    background-color: $composerColorSecond;
+    border: none;
+    box-shadow: none;
+  }
+
+  div.div-part {
+    margin-top: 10vw;
+    p {
+      font-size: 3rem;
+      text-align: justify;
+    }
+  }
+
+  div.imageSection {
+    width: 100%;
+  }
+}
+
+#educationSection {
+  div.imageSection {
+    background-image: url("../res/img/UDFJ.jpg");
+    margin-left: 0px;
+  }
+}
+
+#portfolioSection {
+  div.imageSection {
+    background-image: url("../res/img/PHPsample.gif");
+    margin-left: 0px;
+  }
+}
+
+#proExperienceSection {
+  div.imageSection {
+    background-image: url("../res/img/pegasus.gif");
+    background-size: cover;
+    background-attachment: local;
+  }
+}
+
+#socialAccountsSection {
+  flex-wrap: nowrap;
+}
+
+body {
+    font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.innerTitle {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.informationData {
+  dt {
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-top: 36px;
+  }
+
+  dd {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0px;
+  }
+}
+
+div#socialAccountsSection {
+  img,
+  span {
+    vertical-align: middle;
+  }
+}
+
+footer {
+  font-size: 50px;
+  text-align: center;
+  background-color: $composerColorBase;
+  color: white;
+  p {
+    margin: 0px;
+  }
+}

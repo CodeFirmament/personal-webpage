@@ -1,0 +1,162 @@
+
+i {
+  font-size: 100px;
+}
+
+div.mainContent {
+  position: relative;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+#introduction {
+  p {
+    background-color: $composerColorSecond;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3em;
+  }
+
+  header {
+    margin: 0px;
+    padding-bottom: 30vh;
+
+    h1 {
+      display: inline-block;
+      width: 100%;
+      background-color: $composerColorBase;
+      margin: 0px;
+      margin-top: 40vh;
+      padding: 2px 0vw;
+      color: white;
+      font-size: 3em;
+      font-weight: bold;
+      &#mainTitle {
+        text-align: center;
+      }
+    }
+
+    p {
+      font-size: 1.3em;
+      width: 20%;
+      margin-top: 0px;
+      text-align: left;
+      font-weight: 200;
+    }
+  }
+}
+
+div.centerSection {
+  margin-left: 100px;
+  margin-right: 100px;
+
+  div.div-part:nth-child(odd) {
+    background-color: $softBlue;
+    border-left-style: solid;
+    border-color: #080b21;
+    border-bottom-style: solid;
+    border-color: #080b21;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  div.div-part:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.65);
+    border-right-style: solid;
+    border-color: #080b21;
+    border-bottom-style: solid;
+    border-color: #080b21;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  div.div-part {
+    border-radius: 10px;
+  }
+
+  div.imageSection {
+    width: 50%;
+    height: 75%;
+    padding-bottom: 20vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1000;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
+
+#educationSection {
+  div.imageSection {
+    background-image: url("../res/img/UDFJ.jpg");
+    margin-left: 50%;
+  }
+}
+
+#portfolioSection {
+  div.imageSection {
+    background-image: url("../res/img/PHPsample.gif");
+    margin-left: 50%;
+  }
+}
+
+#proExperienceSection {
+  div.imageSection {
+    background-image: url("../res/img/pegasus.gif");
+    background-size: cover;
+    background-attachment: local;
+  }
+}
+
+#socialAccountsSection {
+  text-align: center;
+  padding-bottom: 4vh;
+  margin-bottom: 5vh;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+body {
+  font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background-image: url("../res/img/Hugh Ferris.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.innerTitle {
+  font-size: 1.6em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.informationData {
+  dt {
+    font-size: 1.6em;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-top: 36px;
+  }
+
+  dd {
+    font-size: 1.3em;
+    text-align: center;
+    margin: 0px;
+  }
+}
+
+footer {
+  font-size: 1em;
+  text-align: center;
+  background-color: $composerColorBase;
+  color: white;
+  p {
+    margin: 0px;
+  }
+}
