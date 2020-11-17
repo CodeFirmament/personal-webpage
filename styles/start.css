@@ -177,11 +177,27 @@ div#C0dec > p:last-child {
   }
 }
 @media screen and (max-width: 500px) {
+  .text-color-base, .text-color-complement {
+    font-size: 0.7em;
+  }
+
+  p.font-console {
+    font-size: 1.2em;
+  }
+
   input[type=text], input[type=password] {
     width: 10em;
   }
 }
 @media screen and (max-width: 400px) {
+  .text-color-base, .text-color-complement {
+    font-size: 0.7em;
+  }
+
+  p.font-console {
+    font-size: 1.2em;
+  }
+
   input[type=text], input[type=password] {
     width: 7em;
   }
