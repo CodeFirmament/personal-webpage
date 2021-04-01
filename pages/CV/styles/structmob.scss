@@ -4,7 +4,7 @@
     background-color: $composerColorSecond;
     text-align: center;
     padding: 10px;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
 
   header {
@@ -15,13 +15,13 @@
       width: 80%;
       margin: 0px;
       background-color: $composerColorBase;
-      font-size: 4rem;
+      font-size: 2.5rem;
       font-weight: bold;
     }
 
     p {
       width: 50%;
-      font-size: 3rem;
+      font-size: 2.1rem;
       margin-top: 0px;
       text-align: left;
       font-weight: 200;
@@ -48,7 +48,7 @@ div.centerSection {
   div.div-part {
     margin-top: 10vw;
     p {
-      font-size: 3rem;
+      font-size: 2.2rem;
       text-align: justify;
     }
   }
@@ -90,14 +90,14 @@ body {
 }
 
 .innerTitle {
-  font-size: 3rem;
+  font-size: 2.3rem;
   text-align: center;
   font-weight: bold;
 }
 
 .informationData {
   dt {
-    font-size: 3rem;
+    font-size: 2.3rem;
     font-weight: bolder;
     text-align: center;
     text-transform: uppercase;
@@ -106,7 +106,7 @@ body {
   }
 
   dd {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-align: center;
     margin: 0px;
   }
@@ -120,7 +120,7 @@ div#socialAccountsSection {
 }
 
 footer {
-  font-size: 50px;
+  font-size: 2.2rem;
   text-align: center;
   background-color: $composerColorBase;
   color: white;

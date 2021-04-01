@@ -63,6 +63,7 @@ div.mainContent {
 div.centerSection {
   margin-left: 100px;
   margin-right: 100px;
+  margin-bottom: 50px;
 }
 div.centerSection div.div-part:nth-child(odd) {
   background-color: rgba(178, 175, 200, 0.82);
@@ -165,7 +166,7 @@ footer p {
     background-color: rgba(178, 185, 200, 0.92);
     text-align: center;
     padding: 10px;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
   #introduction header {
     margin: 0px;
@@ -176,12 +177,12 @@ footer p {
     width: 80%;
     margin: 0px;
     background-color: rgba(12, 20, 35, 0.5);
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: bold;
   }
   #introduction header p {
     width: 50%;
-    font-size: 3rem;
+    font-size: 2.1rem;
     margin-top: 0px;
     text-align: left;
     font-weight: 200;
@@ -206,7 +207,7 @@ footer p {
     margin-top: 10vw;
   }
   div.centerSection div.div-part p {
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-align: justify;
   }
   div.centerSection div.imageSection {
@@ -239,13 +240,13 @@ footer p {
   }
 
   .innerTitle {
-    font-size: 3rem;
+    font-size: 2.3rem;
     text-align: center;
     font-weight: bold;
   }
 
   .informationData dt {
-    font-size: 3rem;
+    font-size: 2.3rem;
     font-weight: bolder;
     text-align: center;
     text-transform: uppercase;
@@ -253,7 +254,7 @@ footer p {
     margin-top: 36px;
   }
   .informationData dd {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-align: center;
     margin: 0px;
   }
@@ -264,7 +265,7 @@ div#socialAccountsSection span {
   }
 
   footer {
-    font-size: 50px;
+    font-size: 2.2rem;
     text-align: center;
     background-color: rgba(12, 20, 35, 0.5);
     color: white;
